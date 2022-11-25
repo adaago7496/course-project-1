@@ -7,9 +7,8 @@ class Checkout extends Component{
                 <h2>Checkout</h2>
                 <div className="order">
                     <h3>Order Details</h3>
-                    <p>Cheese: {window.$order[0]}</p>
+                    <p>Cheese: {localStorage.getItem("CheesePizza")}</p>
                     <p>Pepperoni: {window.$order[1]}</p>
-                    <p>Total</p>
                 </div>
             </div>
         );
