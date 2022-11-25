@@ -33,7 +33,7 @@ var orderDetails=[
         var quantity=Number(localStorage.getItem("Cheese"));
         quantity++;
         localStorage.setItem("Cheese",quantity.toString());
-        console.log("Pizza: Cheese"+" quantity: "+quantity);
+        console.log("Pizza: Cheese quantity: "+quantity);
         //localStorage.setItem("Cheese",quantity+1);
         //var tempItem=localStorage.getItem(pizzaId);
         //localStorage.setItem(tempItem.pizzaType,tempItem.quantity++);
@@ -48,7 +48,7 @@ var orderDetails=[
         var quantity=Number(localStorage.getItem("Pepperoni"));
         quantity++;
         localStorage.setItem("Pepperoni",quantity.toString());
-        console.log("Pizza: Pepperoni"+" quantity: "+quantity);
+        console.log("Pizza: Pepperoni quantity: "+quantity);
         //localStorage.setItem("Cheese",quantity+1);
         //var tempItem=localStorage.getItem(pizzaId);
         //localStorage.setItem(tempItem.pizzaType,tempItem.quantity++);
@@ -63,7 +63,7 @@ class Menu extends Component{
         var quantity=Number(localStorage.getItem("Cheese"));
         quantity++;
         localStorage.setItem("Cheese",quantity.toString());
-        console.log("Pizza: Cheese"+" quantity: "+quantity);
+        console.log("Pizza: Cheese quantity: "+quantity);
         //localStorage.setItem("Cheese",quantity+1);
         //var tempItem=localStorage.getItem(pizzaId);
         //localStorage.setItem(tempItem.pizzaType,tempItem.quantity++);
@@ -78,8 +78,8 @@ class Menu extends Component{
             <div>
                 <h2>Menu</h2>
                 <ul className="content">   
-                        <li><Link to={{pathname: "../components/pages/cart/Checkout"}}><img alt="cheese" src={cheese} onClick={increaseCheese()}/>Cheese Pizza: {localStorage.getItem("Cheese")}</Link></li>
-                        <li><NavLink to="../components/pages/cart/Checkout"><img alt="pepperoni" src={pepperoni} onClick={increasePepperoni()}/>Pepperoni Pizza: {localStorage.getItem("Pepperoni")}</NavLink></li>
+                        <li><Link to={{pathname: "../components/pages/cart/Checkout"}}><img alt="cheese" src={cheese} onClick={increaseCheese}/>Cheese Pizza: {localStorage.getItem("Cheese")}</Link></li>
+                        <li><NavLink to="../components/pages/cart/Checkout"><img alt="pepperoni" src={pepperoni} onClick={increasePepperoni}/>Pepperoni Pizza: {localStorage.getItem("Pepperoni")}</NavLink></li>
                 </ul>
             </div>
         );
