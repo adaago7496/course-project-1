@@ -43,7 +43,6 @@ var orderDetails=[
        // localStorage.setItem(orderDetails[pizzaId].pizzaType,orderDetails[pizzaId].quantity++);
     }
 
-
     function increasePepperoni(){
         var quantity=Number(localStorage.getItem("Pepperoni"));
         quantity++;
