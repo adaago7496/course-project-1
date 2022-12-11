@@ -7,4 +7,4 @@ The build is not fully complete due to time limitations, there are additional fe
 
 I personally feel that the original site was not terrible but needed some adjustments, to help create seemless user interface. I have not completed all of the ideal modifications due to time restrictions with work and the holidays. 
 
-Future additions will be changing the navigation on the top of the page to instead be a side bar that will be collapsible. There will also be a system to create an account and to store previous orders.
+Future additions will be changing the navigation on the top of the page to instead be a side bar that will be collapsible. There will also be a system to create an account and to store previous orders. The method for ordering pizzas will be changed with a card like feature found on figma, that will allow the user to select prebuilt pizzas, create their own pizzas, and save the custom pizzas to allow for faster ordering.
