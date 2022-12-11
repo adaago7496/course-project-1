@@ -4,3 +4,7 @@ This is my course project, it is a simplified version of a pizza restaurant. Wit
 I want to create a look and feel of a pizza restaurant that is a fun and comfortable feeling. This will be accomplished by adding images of the local customers eating at the restaurant and by showing images and posts related to community outreach.
 
 The build is not fully complete due to time limitations, there are additional features that will be added, such as, a customizable pizza and more animations when creating an order.
+
+I personally feel that the original site was not terrible but needed some adjustments, to help create seemless user interface. I have not completed all of the ideal modifications due to time restrictions with work and the holidays. 
+
+Future additions will be changing the navigation on the top of the page to instead be a side bar that will be collapsible. There will also be a system to create an account and to store previous orders.
